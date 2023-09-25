@@ -1,0 +1,74 @@
+.notification-bubble {
+    position: fixed;
+    top: calc(3rem + 1.5rem); /* Takes into account the height of the navbar */
+    right: 1.5rem;
+    z-index: 9999;
+    background-color: #f0f0f0;
+    padding: 0.75rem 1rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s forwards;
+  
+    @keyframes slideIn {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  }
+  
+  .notification-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Added gap for spacing between icon, text, and button */
+  }
+  
+  .notification-icon {
+    font-size: 20px;
+    margin-right: 0.5rem;
+  }
+  
+  .notification-text {
+    flex: 1; /* Allow text to take available space */
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .notification-button {
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .notification-button:hover {
+    background-color: #fbbf24;
+  }
+  
+  .notification-close {
+    background-color: transparent;
+    border: none;
+    color: red;
+    opacity: 0.5;
+    cursor: pointer;
+    margin-left: 16px;
+  }
+  
+  .notification-close:focus {
+    outline: none;
+  }
+  
+  /* Animation Keyframes */
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
