@@ -1,2 +1,24 @@
 # NightCrawl-Website
-This is a possible website for an app
+This is a possible website for a mobile app, mainly made with react and tailwind CSS 
+
+## List of dependencies
++-- @fortawesome/fontawesome-free@6.4.0 </br>
++-- @fortawesome/fontawesome-svg-core@6.4.0 </br>
++-- @fortawesome/free-brands-svg-icons@6.4.0 </br>
++-- @fortawesome/free-solid-svg-icons@6.4.0 </br>
++-- @fortawesome/react-fontawesome@0.2.0 </br>
++-- @tailwindcss/typography@0.5.9</br>
++-- @testing-library/jest-dom@5.17.0</br>
++-- @testing-library/react@13.4.0</br>
++-- @testing-library/user-event@13.5.0</br>
++-- animate.css@4.1.1</br>
++-- autoprefixer@10.4.14</br>
++-- daisyui@3.3.1</br>
++-- gsap@3.12.2</br>
++-- postcss@8.4.27</br>
++-- react-dom@18.2.0</br>
++-- react-scripts@5.0.1</br>
++-- react-scrollmagic@2.3.0</br>
++-- react@18.2.0</br>
++-- tailwindcss@3.3.3</br>
+`-- web-vitals@2.1.4</br>
