@@ -19,7 +19,8 @@ NightCrawl Website is a website for a possible future open-source project of min
 - Logo Animation
 - FAQ Question opener 
 - Entering Animation
-- Mouse Over Animation 
+- Mouse Over Animation
+- Notification
 
 ## Demo
 
